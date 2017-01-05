@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>数字相加</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+	      function jiafa(){
+	           var a= document.getElementById('a1').value
+               var b= document.getElementById("a2").value
+                document.getElementById('a3').value=parseInt(a)+parseInt(b)
+                if (b===""||a==="") {
+                	alert("为空")
+                }else{
+                	alert("结果是"+(parseInt(a)+parseInt(b)))
+                }
+          }
+	</script>
+</head>
+<body>
+   	    <table>
+   	          <h1>数字相加</h1>
+   	    	  <input type="number" id="a1">+
+   	    	  <input type="number" id="a2">=
+   	    	  <input type="number" id="a3" readonly="true">
+   	    	  <button onclick="jiafa()">计算结果</button>
+   	    </table>
+</body>
+</html>

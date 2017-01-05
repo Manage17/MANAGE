@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function suiji(){
+			document.getElementById('a1').value=parseInt(Math.random()*100)
+			document.getElementById('a2').value=parseInt(Math.random()*100)
+		}
+		function panduan(){
+			var c=document.getElementById('a3').value
+			if (c==="") {
+				alert('结果为空')
+				return false
+			}else{
+				return true
+			}
+		}
+		function jisuan(){
+			var a=document.getElementById('a1').value
+			var b=document.getElementById('a2').value
+			var c=document.getElementById('a3').value
+			if (panduan()) {
+				if (parseInt(a)+parseInt(b)===parseInt(c)) {
+					alert("正确")
+				}else{
+					alert("错误")
+				}
+			}
+		}
+	</script>
+</head>
+<body onload="suiji()">
+      <h1>随机给出相加数字</h1>
+      <input type="number" id="a1">+
+      <input type="number" id="a2">=
+      <input type="number" id="a3">
+      <button onclick="jisuan()">核对答案</button>
+</body>
+</html>

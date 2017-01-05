@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>输入一致</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function shuru(){
+			var a=document.getElementById('a1').value
+			var b=document.getElementById('a2').value
+			if (a===""||b==="") {
+				alert('不能为空')
+				return false
+			}else{
+				return true
+			}
+		}
+		function kong(){
+           var a=document.getElementById('a1').value
+		   var b=document.getElementById('a2').value
+		   if (shuru()) {
+		   	if (a===b) {
+		   		alert('输入一致')
+		   	}else{
+		   		alert('输入不一致')
+		   	}
+		   }
+
+		}
+	</script>
+</head>
+<body>
+  <table>
+  	<tbody>
+  	    <h1>输入框内容必须一致</h1>
+  		<tr>
+	       <td>输入:<input type="text" id="a1"></td>
+        </tr>
+        <tr>
+	       <td>输入:<input type="text" id="a2"></td>
+        </tr>
+        <tr>
+	       <td><button onclick="kong()">提交</button></td>
+        </tr>
+  	</tbody>
+  </table>
+</body>
+</html>

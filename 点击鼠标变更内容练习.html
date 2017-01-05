@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>点击鼠标变更内容</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function dianji(obj){
+               obj.style="width:300px; height:300px; background-color:blue"
+		}
+		function songkai(obj){
+			  obj.style="width:300px; height:300px; background-color:yellow"
+		}
+	</script>
+</head>
+<body>
+<div style="width:400px; height:400px; background-color:green" onmousedown="dianji(this)"; onmouseup="songkai(this)"></div>
+</body>
+</html>

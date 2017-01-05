@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>猜数字</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+	    function caishuzi(){
+	    	var a=document.getElementById('a1').value
+	    	var b=document.getElementById('a2').value
+	    	if (a<b) {
+	    		alert("你猜的数字大了!")
+	    	}else if (a===b) {
+	    		alert("你猜对了!")
+	    	}else{
+	    		alert("你猜的小了")
+	    	}
+	    }
+		
+	</script>
+</head>
+<body>
+  <table>
+  	<tbody>
+  		<h1>猜数字游戏(0-100)</h1>
+  		<tr>
+  			<td>谜底:</td>
+  			<td><input type="password" id="a1"></td>
+  		</tr>
+  		<tr>
+  			<td>输入:</td>
+  			<td><input type="number" id="a2"></td>
+  		</tr>
+  		<tr>
+  			<td></td>
+  			<td><button onclick="caishuzi()">验证答案</button></td>
+  		</tr>
+  	</tbody>
+  </table>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>用户设置</title>
+	<meta charset="utf-8">
+  <style type="text/css">
+    body{
+      background-color: #99CCCC;
+    }
+    form{
+           background-color: #CCCCCC;
+           border-radius: 6px;
+           position: absolute;
+             right: 680px;
+             position: absolute;
+             bottom: 350px;
+           box-shadow: 3px 3px 10px rgba(88, 116, 25, 0.2);
+    }
+    .ccc{
+      border-radius: 5px;
+      background-color: #fff;
+    }
+    .ddd{
+      border-radius: 5px;
+      background-color: #fff;
+    }
+  </style>
+</head>
+<body>
+ <form>
+  <table>
+    <tbody>
+  	 <h1>用户设置</h1>
+  	 <tr>
+  	 	<td>用户名:</td>
+  	 	<td><input type="text" name=""></td>
+  	 </tr>
+  	 <tr>
+  	 	<td>性别:</td>
+  	 	<td>男<input type="radio" name="aaa" checked="">女<input type="radio" name="aaa"></td>
+  	 </tr>
+  	 <tr>
+  	 	<td>角色:</td>
+  	 	<td>账单管理员:<input type="checkbox" name="">系统管理员:<input type="checkbox" name=""></td>
+  	 </tr>
+  	 <tr>
+  	 	<td>状态:</td>
+  	 	<td>
+  	 		<select size="1" >
+  	 			<option>启用</option>
+  	 			<option>停用</option>
+  	 		</select>
+  	 	</td>
+  	 </tr>
+  	 <tr>
+  	 	<td>所属地:</td>
+  	 	<td>
+  	 		<select size="3" multiple="">
+  	 			<option value="bj">北京市</option>
+  	 			<option value="sh">上海市</option>
+  	 			<option value="gz">广州市</option>
+  	 			<option value="sz">深圳市</option>
+  	 		</select>
+  	 	</td>
+  	 </tr>
+  	 <tr>
+  	 	<td>头像:</td>
+  	 	<td><input type="file" name=""></td>
+  	 </tr>
+  	 <tr>
+  	 	<td>备注:</td>
+  	 	<td><textarea rows="5" cols="30"></textarea></td>
+  	 </tr>
+  	 <tr>
+  	 	<td></td>
+  	 	<td>
+        <input class="ccc" type="submit" name="">
+        <input class="ddd" type="reset" name="">
+        <a class="fff" href="用户登录练习.html">返回到上一页面</a></td>
+  	 </tr>
+  	 </tbody>
+  </table>
+ </form>
+</body>
+</html>

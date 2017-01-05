@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>用户登录</title>
+	<meta charset="utf-8">
+	<style type="text/css";>
+		form{
+        	 background-color: #CC9999;
+        	 border-radius: 10px;
+        	 position: absolute;
+             right: 730px;
+             position: absolute;
+             bottom: 350px;
+             box-shadow: 3px 3px 10px rgba(88, 116, 25, 0.2);
+             width: 200px;
+             height: 210px;
+		}
+        body{
+        	 background-image: url(http://pic.58pic.com/58pic/14/59/24/20258PICj6G_1024.jpg);
+        	 font-size: 23px;
+        	 color: #fff;
+        }
+        .aaa{
+        	color: #fff;
+        	border-radius: 5px;
+        	background-color: #CC9999;
+
+        }
+        .bbb{
+        	color: #fff;
+        	border-radius: 5px;
+        	background-color: #CC9999;
+        }
+	</style>
+	<script type="text/javascript">
+		function zhanghao(){
+			var a=document.getElementById('a1').value
+			var b=document.getElementById('a2').value
+			if (a===""||b==="") {
+				alert("帐号或密码不能为空")
+				return false
+			}else{
+				return true
+			}
+		}
+	</script>
+</head>
+<body>
+   <form action="登录页面练习.html" onsubmit="zhanghao()">
+   	  <table>
+   	  	<tbody>
+   	  	    <h1>用户登录</h1>
+   	  		<tr>
+   	  			<td><input type="text" name="zhanghu" id="a1" placeholder="用户名" "></td>
+   	  		</tr>
+   	  		<tr>
+   	  			<td><input type="password" name="mima" id="a2" placeholder="密码" "></td>
+   	  		</tr>
+   	  		<tr>
+   	  			<td><input class="aaa" type="submit" name="tijiao" style="width:75px; height:20px; ">
+   	  			<input class="bbb" type="reset" name="chongzhi" style="width:75px; height:20px;"></td>
+   	  		</tr>
+   	  	</tbody>
+   	  </table>
+   </form>
+</body>
+</html>

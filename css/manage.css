@@ -1,0 +1,144 @@
+body{
+	color: white;
+	background-image: linear-gradient(to right, #0F0F0F 3%, #343030 21%, #262627 59%);
+}
+
+
+.manage{
+	background-color: rgba(0,0,0,.1);
+}
+
+.manage .p1{
+	font-size: 32px;
+}
+
+.manage ul{
+	margin-top: 3px;
+}
+
+li{
+	list-style: none;
+	float: left;
+	margin-left: 15px;
+	font-size: 22px;
+}
+
+.manage-title{
+	padding-top: 80px;
+
+}
+
+.form{
+	width: 20%;
+	margin-top: 6px;
+	opacity: 0.9;
+}
+
+.form-control{
+	opacity: 0.9;
+}
+
+.form-group{
+	margin-bottom: 0;
+}
+
+
+
+
+.tab-panel{
+	display: none;
+}
+
+.tab-panel.active{
+	display: block;
+}
+
+.tab-panel{
+	position: relative;
+	padding: 20px;
+	border-top: 4px solid #EE9A00;
+}
+
+
+.tab1{
+	left: 195px;
+	top: -4px;
+	padding: 0 72px;
+	position: absolute;
+	border-top: 4px solid green;
+}
+
+.tab2{
+	left: 359px;
+	top: -4px;
+	padding: 0 55px;
+	position: absolute;
+	border-top: 4px solid green;
+}
+
+.tab3{
+	left: 488px;
+	top: -4px;
+	padding: 0 88px;
+	position: absolute;
+	border-top: 4px solid green;
+}
+
+.tab4{
+	right: 395px;
+	top: -4px;
+	padding: 0 55px;
+	position: absolute;
+	border-top: 4px solid green;
+}
+
+.tab2-title{
+	width: 40%;
+}
+
+.form-2{
+	width: 20%;
+}
+
+
+
+
+
+/*订单*/
+.top-right .span1{
+	margin-right: 115px;
+}
+
+.Order-img{
+	width: 70px;
+}
+
+.Order{
+	padding: 20px 8px;
+	border: 1px solid #FFFFFF;
+}
+
+.Order .span1{
+	margin-right: 120px;
+}
+
+.Order .span2{
+	margin-right: 50px;
+}
+
+.Order-right{
+	margin-top: 9px;
+}
+
+.Order .span3{
+	margin-left: 20px;
+}
+
+.order-title{
+	padding: 10px;
+	color: #B91313;
+}
+
+.order{
+	margin: 25px 0;
+}

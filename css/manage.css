@@ -5,7 +5,7 @@ body{
 
 
 .manage{
-	background-color: rgba(0,0,0,.1);
+	/*background-color: rgba(0,0,0,.1);*/
 }
 
 .manage .p1{
@@ -21,6 +21,10 @@ li{
 	float: left;
 	margin-left: 15px;
 	font-size: 22px;
+}
+
+.cart-top{
+	margin-top: 10px;
 }
 
 .manage-title{
@@ -69,25 +73,25 @@ li{
 }
 
 .tab2{
-	left: 359px;
+	left: 360px;
 	top: -4px;
-	padding: 0 55px;
+	padding: 0 70px;
 	position: absolute;
 	border-top: 4px solid green;
 }
 
 .tab3{
-	left: 488px;
+	left: 521px;
 	top: -4px;
-	padding: 0 88px;
+	padding: 0 72px;
 	position: absolute;
 	border-top: 4px solid green;
 }
 
 .tab4{
-	right: 395px;
+	right: 364px;
 	top: -4px;
-	padding: 0 55px;
+	padding: 0 70px;
 	position: absolute;
 	border-top: 4px solid green;
 }
@@ -141,4 +145,45 @@ li{
 
 .order{
 	margin: 25px 0;
+}
+
+.pay{
+	color: white;
+	padding: 10px;
+	background-color: #A5DE37;
+	border-radius: 4px;
+}
+
+
+/*菜单*/
+.dishes-area{
+  padding: 20px;
+  width: 25%;
+}
+
+.dishes-area img{
+  width: 250px;
+  height: 250px;
+}
+
+.dishes-area h3{
+  color: #e4393c;
+}
+
+.yinying{
+  box-shadow: 0px 1px 8px #a0a0a0;
+}
+
+
+/**/
+.screen-navbar{
+	width: 38%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.screen-navbar2{
+	width: 38%;
+	margin: auto;
+	margin-bottom: 20px;
 }

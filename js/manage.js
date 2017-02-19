@@ -19,4 +19,20 @@ $(function(){
 			};
 		});
 	});
+
+	$(".dishes-area").mouseenter(function(){
+    $(this).addClass("yinying")
+  });
+  $(".dishes-area").mouseleave(function(){
+    $(this).removeClass("yinying")
+  });
+
+  $(".rn-").mouseenter(function(){
+    $(this).animate({width:"98px"},500);
+    $(this).css("background","#f10215");
+  });
+  $(".rn-").mouseleave(function(){
+    $(this).animate({width:"30px"},500);
+    $(this).css("background","#ab837b");
+  });
 })

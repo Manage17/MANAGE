@@ -11,7 +11,7 @@
   <link rel="stylesheet" type="text/css" href="../css/general.css">
   <link rel="stylesheet" type="text/css" href="../css/shopping_cart.css">
 </head>
-<body>
+<body onload="startTime()">
   <div class="navbar-">
     <div class="navbar-area clearfix">
       <div class="pull-left na-left">
@@ -20,14 +20,10 @@
         </div>
         <div class="pull-right logo-">HELLO</div>
       </div>
-      <div class="pull-right na-right">
-        <a href="../html/log_in.html" class="pr-a">登录</a>
+      <div class="na-right">
         <i class="pr-i"></i>
-        <a href="../html/newuser.html" class="pr-a">注册</a>
+        <a href="../html/manage.html" class="pr-a">管理系统</a>
         <i class="pr-i"></i>
-        <a href="../html/log_in.html" class="pr-a">我的订单</a>
-        <i class="pr-i"></i>
-        <a href="../html/shopping_cart.html" class="pr-a">购物车</a>
       </div>
     </div>
   </div>
@@ -35,46 +31,46 @@
   <div class="cart">
   	<div class="content">
   		<div class="title">
-  			<h1>购物车</h1>
+  			<h1>订单详情</h1>
   		</div>
   		<div class="cart-area">
   			<div class="cart-navbar">
-  				<span class="cart-span1">全部商品 <i class="cart-i">5</i></span>
+				 <i class="cart-i"></i>
   			</div>
   			<div class="cart-top clearfix">
 	  			<div class="top-left pull-left">
-	  				<span class="top-span1"><input type="checkbox" name=""> 全选</span>
 	  				<span class="span2">商品信息</span>
 	  			</div>
 	  			<div class="top-right pull-right">
-	  				<span class="span1">单价</span>
+	  				<span class="span1">下单时间</span>
 	  				<span class="span1">数量</span>
 	  				<span class="span1">金额</span>
-	  				<span class="span2">操作</span>
+	  				<span class="span2">付款人</span>
 	  			</div>
   			</div>
   			<div class="Order clearfix">
-          <span class="top-span1"><input type="checkbox" name=""></span>
   				<img src="../tp/a.jpg" class="Order-img">
   				<span class="span3">菜品1</span>
   				<div class="Order-right pull-right">
-  					<span class="span1">00.00</span>
+  					<div id="txt" class="time">
+            </div>
   					<span class="span1">1</span>
   					<span class="span1">00</span>
-  					<a href="javascript:;" class="span2">删除</a>
+  					<select class="form-control">
+              <option>本人</option>
+              <option>张三</option>
+              <option>李四</option>
+              <option>王二</option>
+            </select>
   				</div>
   			</div>
         <div class="buttom">
           <div class="buttom-txt">
-            <div class="top-left pull-left">
-              <span class="top-span1"><input type="checkbox" name=""> 全选</span>
-            </div>
             <div class="top-right pull-right">
-              <span class="span1">已选中商品<span>0</span>件</span>
-              <span class="span2">合计 (不含运费) : <span>0.00</span></span>
+              <span class="span2">合计 : <span>0.00</span></span>
             </div>
           </div>
-          <button class="buttom-submit btn btn-lg btn-primary" type="button" disabled="disabled">结算</button>
+          <button class="buttom-submit btn btn-lg btn-success" type="button" value="success" onclick="javascrtpt:window.location.href='../html/pay_success.html'">结算</button>
         </div>
   		</div>
   	</div>
@@ -83,5 +79,6 @@
 
 <script src="../jquery-3.1.1.js"></script>
 <script type="text/javascript" src="../js/navbar.js"></script>
+<script type="text/javascript" src="../js/time.js"></script>
 </body>
 </html>

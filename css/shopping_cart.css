@@ -102,3 +102,13 @@
 .Order .span3{
 	margin-left: 20px;
 }
+
+.time{
+ float: left ;
+ margin-right:140px;
+}
+
+.form-control{
+	width: 80px;
+	float: right;
+}

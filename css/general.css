@@ -32,6 +32,8 @@ a{
 .content{
   width: 1190px;
   margin: auto;
+  /* background: silver;
+  background: linear-gradient(to right, silver, black); */
 }
 /*导航*/
 .sanjiao{
@@ -71,7 +73,6 @@ a{
 }
 
 .logo{
-  box-shadow: 0px 1px 8px #a0a0a0;
   margin-left: 40px;
   margin-top: 10px;
   padding: 3px 5px;

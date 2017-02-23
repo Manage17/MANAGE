@@ -1,12 +1,10 @@
 body{
 	color: white;
-	background-image: linear-gradient(to right, #0F0F0F 3%, #343030 21%, #262627 59%);
+	background-color: #768479;
+	background-color: rgba(0,0,0,.7);
+	/* background-image: linear-gradient(to right, #0F0F0F 3%, #343030 21%, #262627 59%); */
 }
 
-
-.manage{
-	/*background-color: rgba(0,0,0,.1);*/
-}
 
 .manage .p1{
 	font-size: 32px;
@@ -69,31 +67,31 @@ li{
 	top: -4px;
 	padding: 0 72px;
 	position: absolute;
-	border-top: 4px solid green;
+	border-top: 4px solid #FF4351;
 }
 
 .tab2{
-	left: 360px;
+	left: 354px;
 	top: -4px;
 	padding: 0 70px;
 	position: absolute;
-	border-top: 4px solid green;
+	border-top: 4px solid #FF4351;
 }
 
 .tab3{
-	left: 521px;
+	left: 511px;
 	top: -4px;
 	padding: 0 72px;
 	position: absolute;
-	border-top: 4px solid green;
+	border-top: 4px solid #FF4351;
 }
 
 .tab4{
-	right: 364px;
+	right: 378px;
 	top: -4px;
 	padding: 0 70px;
 	position: absolute;
-	border-top: 4px solid green;
+	border-top: 4px solid #FF4351;
 }
 
 .tab2-title{
@@ -119,7 +117,7 @@ li{
 
 .Order{
 	padding: 20px 8px;
-	border: 1px solid #FFFFFF;
+	border: 1px solid #EE9A00;
 }
 
 .Order .span1{
@@ -140,7 +138,7 @@ li{
 
 .order-title{
 	padding: 10px;
-	color: #B91313;
+	color: #FF4351;
 }
 
 .order{
@@ -150,7 +148,7 @@ li{
 .pay{
 	color: white;
 	padding: 10px;
-	background-color: #A5DE37;
+	background-color: #FF4351;
 	border-radius: 4px;
 }
 
@@ -167,7 +165,7 @@ li{
 }
 
 .dishes-area h3{
-  color: #e4393c;
+  color: #FF4351;
 }
 
 .yinying{
@@ -187,3 +185,9 @@ li{
 	margin: auto;
 	margin-bottom: 20px;
 }
+
+
+/**/
+/*.button-action{
+	background-color: #EE9A00;
+}*/

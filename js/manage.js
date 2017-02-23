@@ -35,4 +35,8 @@ $(function(){
     $(this).animate({width:"30px"},500);
     $(this).css("background","#ab837b");
   });
+
+  // $(".button-pill").mouseenter(function(){
+  //   $(this).css("background", "#ebba95");
+  // });
 })

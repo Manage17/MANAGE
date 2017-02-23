@@ -1,22 +1,22 @@
 //消费情况图表
 var data = {
    labels: [
-       "Red",
+/*       "Red",
        "Blue",
-       "Yellow"
+       "Yellow"*/
    ],
    datasets: [
        {
            data: [12, 14, 20],
            backgroundColor: [
-               "#FF6384",
-               "#36A2EB",
-               "#FFCE56"
+               "#e7923d",
+               "#768479",
+               "#ebba95"
            ],
            hoverBackgroundColor: [
-               "#FF6384",
+/*               "#218457",
                "#36A2EB",
-               "#FFCE56"
+               "#FFCE56"*/
            ]
        }]
 };
@@ -34,22 +34,22 @@ var myBarChart = new Chart(ctx, {
 //代付情况图表
 var data2 = {
      labels: [
+/*         "xxx",
          "xxx",
-         "xxx",
-         "xxx"
+         "xxx"*/
      ],
      datasets: [
          {
              data: [10, 20, 10],
              backgroundColor: [
-                 "#E41515",
-                 "#7A67A9",
-                 "#43B8E4"
+                 "#218457",
+                 "#495A80",
+                 "#BDB76A"
              ],
              hoverBackgroundColor: [
-                 "#E41515",
+/*                 "#E41515",
                  "#7A67A9",
-                 "#43B8E4"
+                 "#43B8E4"*/
              ]
          }]
 };

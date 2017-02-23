@@ -1,9 +1,9 @@
 //消费情况图表
 var data = {
    labels: [
-/*       "Red",
-       "Blue",
-       "Yellow"*/
+       "Red",
+       "是",
+       "Yellow"
    ],
    datasets: [
        {
@@ -22,7 +22,7 @@ var data = {
 };
 
 // Get the context of the canvas element we want to select
-var ctx = document.getElementById("myChart").getContext("2d");
+var ctx = $("#myChart").get(0).getContext("2d");
 var myBarChart = new Chart(ctx, {
                                    type: 'doughnut',
                                    data: data,
@@ -34,9 +34,9 @@ var myBarChart = new Chart(ctx, {
 //代付情况图表
 var data2 = {
      labels: [
-/*         "xxx",
          "xxx",
-         "xxx"*/
+         "xxx",
+         "xxx"
      ],
      datasets: [
          {
